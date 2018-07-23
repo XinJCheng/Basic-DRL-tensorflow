@@ -32,6 +32,8 @@ def update():
             RL.learn(str(observation), action, reward, str(observation_))
             observation = observation_
 
+            # show Q table 
+            RL.show_table()
             if done:
                 break
 

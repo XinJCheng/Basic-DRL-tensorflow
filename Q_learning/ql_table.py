@@ -61,3 +61,5 @@ class QLearningTable:
                     name = state
                 )
             )
+    def show_table(self):
+        print (self._q_table)
